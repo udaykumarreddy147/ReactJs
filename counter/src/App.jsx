@@ -11,7 +11,29 @@ function App() {
   function addValue()
   {
       counter+=1;
-      setCounter(counter);
+      // 1
+      // if previous counter value  is equal to current counter value then the 
+        // current counter value is to be incremented by 1
+
+        // previous =15 current = 16
+        // both are not equal 
+        // counter = 16
+      setCounter(preCounter => preCounter + 1 );
+
+        // previous =16 current = 16
+        // both are  equal 
+        // counter = 17
+      setCounter(preCounter => preCounter + 1 );
+         
+        // previous =17 current = 17
+        // both are  equal 
+        // counter = 18
+      setCounter(preCounter => preCounter + 1 );
+
+        // previous =18 current = 18
+        // both are  equal 
+        // counter = 19
+      setCounter(preCounter => preCounter + 1 );
   }
 
   function removeValue()
