@@ -11,6 +11,7 @@ function App() {
   function addValue()
   {
       counter+=1;
+
       // 1
       // if previous counter value  is equal to current counter value then the 
         // current counter value is to be incremented by 1
@@ -34,6 +35,16 @@ function App() {
         // both are  equal 
         // counter = 19
       setCounter(preCounter => preCounter + 1 );
+
+
+      // setCounter(counter+1)
+      // setCounter(counter+1)
+      // setCounter(counter+1)
+      // setCounter(counter+1)
+
+      // the output is = 15+1 => 16 because
+      // the same method is repeating every time and the output for 
+      // every method is same so the final output is updated at once 
   }
 
   function removeValue()
