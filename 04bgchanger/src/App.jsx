@@ -6,6 +6,7 @@ function App() {
     const [color,setColor] = useState("olive")
 
   return (
+    <>
     <div className="w-full h-screen duration-200" style={{backgroundColor:color}}> 
         <div className="fixed bottom-12 w-full p-2 shadow-lg insetx-0 gap-5 flex flex-wrap justify-center" 
         style={{backgroundColor:"white"}}>
@@ -21,6 +22,7 @@ function App() {
           
         </div>
     </div>
+    </>
   )
 }
 
